@@ -1,0 +1,64 @@
+.banner {
+    background-color: $secondary-color;
+    padding: 2% 0;
+    background-image: url("/media/commence_blur.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 160px;
+    &.banner--register {
+      background-image: url("/media/register_bg.jpg");
+    }
+    .banner_contents {
+        @include container;
+        text-align:center;
+        padding-top:3%;
+    }
+}
+.lead {
+  background-color:$bg-color;
+  padding:1.5% 0px 2% 0px;
+  border-bottom:1px solid $borders;
+  .lead_contents {
+    text-align: center;
+    max-width:500px;
+    margin:0 auto;
+    h3 {
+      font-size:2.6rem;
+    }
+    p {
+      font-size:1.8rem;
+    }
+  }
+}
+.instructions {
+  -webkit-columns: 2;
+   -moz-columns: 2;
+        columns: 2;
+        -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+}
+.studentbar {
+  background-color:$blue;
+  padding:10px 0px;
+  .studentbar__contents {
+    display:flex;
+    justify-content: space-between;
+    @include container;
+    p {
+      color:#fff;
+    }
+  }
+}
+.register  {
+  margin-top:40px;
+  .register__form {
+    margin-top:10px;
+    padding-bottom:75px;
+    margin-bottom:45px;
+    border-bottom:1px solid $borders;
+  &:last-child {
+    border-bottom:0px solid $borders;
+  }
+  }
+}
