@@ -1,0 +1,16 @@
+.input__group{
+  label {
+    display:block;
+    font-family: $sans-serif;
+    font-size:1.4rem;
+    color:$secondary-font;
+    padding:5px;
+    text-transform:uppercase;
+  }
+  input {
+    border:1px solid $borders;
+    background-color:#fff;
+    border-radius:2px;
+    padding:5px;
+  }
+}

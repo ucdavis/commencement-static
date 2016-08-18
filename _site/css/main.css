@@ -454,6 +454,19 @@ input[type="button"].button-primary:focus {
 .bg-california-poppy {
   background-color: #ed8800 !important; }
 
+.input__group label {
+  display: block;
+  font-family: "proxima-nova", arial, sans-serif;
+  font-size: 1.4rem;
+  color: #5a585c;
+  padding: 5px;
+  text-transform: uppercase; }
+.input__group input {
+  border: 1px solid #C8C7CC;
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 5px; }
+
 .banner {
   background-color: #DDB307;
   padding: 2% 0;
