@@ -52,7 +52,7 @@
 }
 .register  {
   margin-top:40px;
-  .register__form {
+  .register__section {
     margin-top:10px;
     padding-bottom:75px;
     margin-bottom:45px;
@@ -75,7 +75,13 @@
     padding-bottom:4px;
     margin:-1px;
   }
-  .ceremony__contents {
-
+  .ceremony__wrapper {
+    padding:15px;
   }
+}
+.checkbox__wrapper {
+  background-color:$secondary-bg;
+  padding:15px;
+  font-size:1.6rem;
+  font-family: $sans-serif;
 }

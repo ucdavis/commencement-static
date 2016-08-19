@@ -171,7 +171,8 @@ footer {
 html {
   position: relative;
   min-height: 100%;
-  height: inherit; }
+  height: inherit;
+  font-family: "proxima-nova", arial, sans-serif; }
 
 body {
   padding: 0px;
@@ -454,31 +455,27 @@ input[type="button"].button-primary:focus {
 .bg-california-poppy {
   background-color: #ed8800 !important; }
 
-.input__wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; }
-  .input__wrapper .input__group {
-    margin-bottom: 20px; }
-    .input__wrapper .input__group label {
-      display: block;
-      font-family: "proxima-nova", arial, sans-serif;
-      font-size: 1.4rem;
-      color: #5a585c;
-      padding: 5px;
-      font-weight: 600; }
-    .input__wrapper .input__group input {
-      border: 1px solid #C8C7CC;
-      background-color: #fff;
-      border-radius: 2px;
-      padding: 10px 8px 9px 8px;
-      font-size: 1.6rem; }
-    .input__wrapper .input__group select {
-      border: 1px solid #C8C7CC;
-      background-color: #fff;
-      border-radius: 2px;
-      padding: 10px 8px 9px 8px;
-      font-size: 1.6rem; }
+.input__group {
+  margin-bottom: 20px; }
+  .input__group label {
+    display: block;
+    font-family: "proxima-nova", arial, sans-serif;
+    font-size: 1.4rem;
+    color: #5a585c;
+    padding: 5px;
+    font-weight: 600; }
+  .input__group input {
+    border: 1px solid #C8C7CC;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 10px 8px 9px 8px;
+    font-size: 1.6rem; }
+  .input__group select {
+    border: 1px solid #C8C7CC;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 10px 8px 9px 8px;
+    font-size: 1.6rem; }
 
 .banner {
   background-color: #DDB307;
@@ -543,12 +540,12 @@ input[type="button"].button-primary:focus {
 
 .register {
   margin-top: 40px; }
-  .register .register__form {
+  .register .register__section {
     margin-top: 10px;
     padding-bottom: 75px;
     margin-bottom: 45px;
     border-bottom: 1px solid #C8C7CC; }
-    .register .register__form:last-child {
+    .register .register__section:last-child {
       border-bottom: 0px solid #C8C7CC; }
 
 .ceremony {
@@ -563,6 +560,14 @@ input[type="button"].button-primary:focus {
     padding-top: 8px;
     padding-bottom: 4px;
     margin: -1px; }
+  .ceremony .ceremony__wrapper {
+    padding: 15px; }
+
+.checkbox__wrapper {
+  background-color: #F0F0F0;
+  padding: 15px;
+  font-size: 1.6rem;
+  font-family: "proxima-nova", arial, sans-serif; }
 
 .check {
   width: 60px;
