@@ -75,6 +75,17 @@
     padding-bottom:4px;
     margin:-1px;
   }
+  table {
+    tr {
+      td {
+        font-size:1.6rem;
+        &:first-child {
+          padding-right:30px;
+        }
+      }
+    }
+  }
+
   .ceremony__wrapper {
     padding:15px;
   }
