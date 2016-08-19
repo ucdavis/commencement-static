@@ -62,3 +62,20 @@
   }
   }
 }
+.ceremony {
+  border:1px solid $borders;
+  h2 {
+    color:#fff;
+    font-weight:600;
+    font-size:1.6rem;
+    background-color:$blue;
+    margin-top:0px;
+    padding-left:15px;
+    padding-top:8px;
+    padding-bottom:4px;
+    margin:-1px;
+  }
+  .ceremony__contents {
+
+  }
+}
