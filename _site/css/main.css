@@ -421,6 +421,12 @@ input[type="button"].button-primary:focus {
   .btn:hover {
     opacity: .85;
     color: #fff; }
+  .btn.btn-16 {
+    font-size: 1.6rem; }
+  .btn.btn-18 {
+    font-size: 1.8rem; }
+  .btn.btn-20 {
+    font-size: 2.0rem; }
   .btn.btn-red {
     background-color: #ba0c2f; }
   .btn.btn-blue {
@@ -436,8 +442,6 @@ input[type="button"].button-primary:focus {
     box-shadow: none; }
     .btn.btn-logout:hover {
       background-color: #e2e2e4; }
-  .btn.btn-register {
-    font-size: 1.8rem; }
 
 .float-right {
   float: right; }
@@ -548,6 +552,21 @@ input[type="button"].button-primary:focus {
         width: 90%; } }
     .studentbar .studentbar__contents p {
       color: #fff; }
+
+.progressbar {
+  background-color: #FFFDFB;
+  padding: 2% 0px;
+  border-bottom: 1px solid #C8C7CC; }
+  .progressbar .progressbar__contents {
+    width: 80%;
+    margin: 0 auto;
+    min-width: 300px; }
+    @media (max-width: 850px) {
+      .progressbar .progressbar__contents {
+        width: 85%; } }
+    @media (max-width: 640px) {
+      .progressbar .progressbar__contents {
+        width: 90%; } }
 
 .register {
   margin-top: 40px; }
