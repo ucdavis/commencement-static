@@ -26,6 +26,7 @@
 .btn {
     padding: 8px 20px;
     margin-top: 2.5%;
+
     background-color: $secondary-color;
     box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
     border-radius: 2px;
@@ -35,7 +36,6 @@
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    // text-transform: uppercase;
     text-decoration: none;
     &:hover {
         opacity: .85;
@@ -61,6 +61,9 @@
       &:hover {
         background-color:lighten($borders, 10);
       }
+    }
+    &.btn-register {
+      font-size:1.8rem;
     }
 }
 
@@ -92,4 +95,7 @@
 
 .bg-california-poppy {
     background-color: $california-poppy !important;
+}
+.t-center {
+  text-align: center;
 }

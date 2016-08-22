@@ -11,7 +11,12 @@ html {
 a {
   text-decoration: none;
   color: #016FC4;
-  transition: color 150ms ease-in-out; }
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  /* ...and now for the proper property */
+  transition: .5s; }
   a:hover {
     color: #DDB307; }
 
@@ -431,6 +436,8 @@ input[type="button"].button-primary:focus {
     box-shadow: none; }
     .btn.btn-logout:hover {
       background-color: #e2e2e4; }
+  .btn.btn-register {
+    font-size: 1.8rem; }
 
 .float-right {
   float: right; }
@@ -455,6 +462,9 @@ input[type="button"].button-primary:focus {
 
 .bg-california-poppy {
   background-color: #ed8800 !important; }
+
+.t-center {
+  text-align: center; }
 
 .input__group {
   margin-bottom: 20px; }
