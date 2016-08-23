@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   This is a Jekyll Starter template developed by cydoval.com.
 subject: UC Davis Starter template for CAES CRU and anyone else
 classification: Web Design
-baseurl: "/commencement-static" # the subpath of your site, e.g. /blog/
+
 permalink: pretty
 
 paginate: 3
