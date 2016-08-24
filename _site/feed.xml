@@ -4,10 +4,10 @@
     <title>UC Davis Commencement</title>
     <description>This is a Jekyll Starter template developed by cydoval.com.
 </description>
-    <link>/commencement-static//</link>
-    <atom:link href="/commencement-static//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Aug 2016 10:13:37 -0700</pubDate>
-    <lastBuildDate>Tue, 23 Aug 2016 10:13:37 -0700</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 24 Aug 2016 10:18:18 -0700</pubDate>
+    <lastBuildDate>Wed, 24 Aug 2016 10:18:18 -0700</lastBuildDate>
     <generator>Jekyll v3.0.5</generator>
     
   </channel>
