@@ -555,7 +555,7 @@ input[type="button"].button-primary:focus {
 
 .progressbar {
   background-color: #FFFDFB;
-  padding: 2% 0px;
+  padding: 2% 0px 1% 0px;
   border-bottom: 1px solid #C8C7CC; }
   .progressbar .progressbar__contents {
     width: 80%;
@@ -610,12 +610,12 @@ input[type="button"].button-primary:focus {
 .stepbar {
   margin: 0;
   padding: 0;
-  counter-reset: step; }
+  counter-reset: step;
+  display: flex;
+  justify-content: space-around; }
 
 .stepbar li {
   list-style-type: none;
-  width: 25%;
-  float: left;
   font-size: 12px;
   position: relative;
   text-align: center;
@@ -627,7 +627,7 @@ input[type="button"].button-primary:focus {
   height: 30px;
   content: counter(step);
   counter-increment: step;
-  line-height: 30px;
+  line-height: 27px;
   border: 2px solid #7d7d7d;
   display: block;
   text-align: center;

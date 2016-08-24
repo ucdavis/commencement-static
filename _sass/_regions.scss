@@ -52,10 +52,11 @@
 }
 .progressbar {
   background-color:$bg-color;
-  padding:2% 0px;
+  padding:2% 0px 1% 0px;;
   border-bottom:1px solid $borders;
   .progressbar__contents {
     @include container;
+
   }
 }
 .register  {
