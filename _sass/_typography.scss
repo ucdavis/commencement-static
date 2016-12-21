@@ -11,25 +11,24 @@ html {
         font-size: 7px;
     }
 }
-
 a {
-    text-decoration: none;
+    text-decoration: none !important;
     color: $a-link;
-    -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  /* ...and now for the proper property */
-  transition:.5s;
+    -o-transition: 0.25s;
+    -ms-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -webkit-transition: 0.25s;
+    /* ...and now for the proper property */
+    transition: 0.25s;
     &:hover {
         color: $a-hover;
+        text-decoration: none !important;
     }
 }
-
-ul,
-ol {
+ol,
+ul {
     &.two_col_list {
-        padding-left: 0px;
+        padding-left: 0;
         li {
             width: 49%;
             display: inline-block;
@@ -41,12 +40,12 @@ ol {
         }
     }
     &.list--nopadding {
-        padding-left: 0px;
+        padding-left: 0;
     }
     li {
         font-size: 1.6rem;
         line-height: 1.8;
-        letter-spacing: .025rem;
+        letter-spacing: 0.025rem;
         font-family: $sans-serif;
         color: $primary-font;
         a {
@@ -57,22 +56,20 @@ ol {
         list-style-type: none;
     }
 }
-
-
 ul.footer-list {
     list-style-type: none;
-    padding-left: 0px;
+    padding-left: 0;
     margin-bottom: 3px;
     display: inline-block;
-    margin-top: 0px;
+    margin-top: 0;
     li {
         display: inline-block;
         border-right: 1px solid $borders;
         padding-right: 10px;
         margin-right: 10px;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
         font-family: $sans-serif;
         font-weight: 200;
         color: $tertiary-font;
@@ -91,16 +88,17 @@ ul.footer-list {
         }
     }
 }
-
 p {
     line-height: 1.625;
-    letter-spacing: .025rem;
+    letter-spacing: 0.025rem;
     font-size: 1.6rem;
     font-family: $sans-serif;
     color: $primary-font;
-
+    .eventinfo-item & {
+      color:$secondary-font;
+      font-size:1.8rem;
+    }
 }
-
 h1,
 h2,
 h3,
@@ -116,34 +114,39 @@ h6 {
     font-weight: 400;
     color: $primary-font;
 }
-
-h1,
-.h1 {
+.h1,
+h1 {
     font-size: 2.8rem;
     margin-bottom: 5px;
     font-weight: 400;
     color: $primary-font;
-
+    header & {
+      margin-top:0px;
+      margin-bottom:0px;
+      a {
+        font-size:3.0rem;
+        color:#fff;
+        font-weight:bold;
+        &:hover {
+          color:#fff;
+        }
+      }
+    }
 }
-
-h2,
-.h2 {
+.h2,
+h2 {
     font-size: 2.2rem;
     font-weight: 400;
-
 }
-
-h3,
-.h3 {
+.h3,
+h3 {
     font-size: 2rem;
+}
+.h4,
+h4 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight:600;
 
 }
-
-h4,
-.h4 {
-    font-size: 1.4rem
-}
-
-h5 {
-
-}
+h5 {}

@@ -17,3 +17,8 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
   - jekyll-paginate
+
+collections:
+  events:
+    output: true
+    permalink: /awesome/:path/

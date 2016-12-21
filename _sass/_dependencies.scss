@@ -11,8 +11,8 @@ serif; // light 300, book 400, regular 500
 $primary-color: #016FC4;
 $secondary-color: #DDB307;
 
-$primary-font: #646464; // p,li color in main content
-$secondary-font: #5a585c; // p,li color in portlet/sidebar
+$primary-font: rgba(24,24,24,0.90); // p,li color in main content
+$secondary-font: rgba(24,24,24,0.60); // p,li color in portlet/sidebar
 $tertiary-font: #A6A6A6; // summary, discreet
 
 
@@ -110,7 +110,7 @@ $shingle-brown: #4f2c1d;
     -webkit-transform: translateZ(0); // Fix animation in Safari
 }
 
-@mixin container {
+@mixin boundary {
     width: 80%;
     margin: 0 auto;
     min-width: 300px;

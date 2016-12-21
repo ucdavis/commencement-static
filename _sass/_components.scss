@@ -105,3 +105,14 @@
 .t-center {
   text-align: center;
 }
+.boundary {
+    width: 80%;
+    margin: 0 auto;
+    min-width: 300px;
+    @include breakpoint(rufus) {
+      width:85%;
+    }
+    @include breakpoint(mobileonly) {
+        width: 90%;
+    }
+}
